@@ -1,4 +1,4 @@
-Práctica de Laboratorio #7. Travis      [(https://travis-ci.org/alu0100499247/prac7.png)](https://travis-ci.org/alu0100499247/prac7) 
+Práctica de Laboratorio #7. Travis          [![Build Status](https://travis-ci.org/alu0100499247/prac7.png)](https://travis-ci.org/alu0100499247/prac7) 
 ================
 
 
