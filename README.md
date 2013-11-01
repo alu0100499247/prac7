@@ -17,9 +17,9 @@ Objetivos
 
 Para ello realizar los siguientes pasos:
 
-	* Darse de alta en 'https://travis-ci.org/' y permitir que se acceda desde Github (poniendo a ON el proyecto).
+* Darse de alta en 'https://travis-ci.org/' y permitir que se acceda desde Github (poniendo a ON el proyecto).
 
-	* Crear un fichero '.travis.yml' que contenga el listado de plataformas sobre las que se quiere comprobar el correcto funcionamiento, por ejemplo:
+* Crear un fichero '.travis.yml' que contenga el listado de plataformas sobre las que se quiere comprobar el correcto funcionamiento, por ejemplo:
 
 		language: ruby
 		rvm:
@@ -30,7 +30,7 @@ Para ello realizar los siguientes pasos:
 		  - rbx-19mode
 		  - 1.8.7
 
-	* Crear un fichero 'Rakefile' que contenga, al menos:
+* Crear un fichero 'Rakefile' que contenga, al menos:
 
 		$:.unshift File.dirname(__FILE__) + 'lib'
 
@@ -38,7 +38,7 @@ Para ello realizar los siguientes pasos:
 		RSpec::Core::RakeTask.new
 		task :default => :spec
 
-	* Crear un fichero 'Gemfile' que contenga al menos:
+* Crear un fichero 'Gemfile' que contenga al menos:
 
 		source 'https://rubygems.org'
 
